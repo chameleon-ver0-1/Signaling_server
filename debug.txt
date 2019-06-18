@@ -1,0 +1,74 @@
+1. GET
+wss://rtcmulticonnection.herokuapp.com/socket.io/?
+    userid=66ssh3edzaj&
+    sessionid=abcded&
+    msgEvent=video-conference-demo&
+    socketCustomEvent=RTCMultiConnection-Custom-Message&
+    autoCloseEntireSession=true&
+    maxParticipantsAllowed=1000&
+    extra=%7B%7D&EIO=3&
+    transport=websocket&
+    sid=hTim6Rp6PxwSszddAAX4
+
+2. GET >> localhost
+http://localhost:3000/room/test
+
+3. GET
+https://cdn.webrtc-experiment.com/RTCMultiConnection.js
+
+4. GET
+https://cdn.webrtc-experiment.com/conversation.js
+
+5. GET
+https://rtcmulticonnection.herokuapp.com/dist/RTCMultiConnection.min.js
+
+6. GET
+https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js
+
+7. GET >> localhost
+http://localhost:3000/static/js/bundle.js
+http://localhost:3000/static/js/0.chunk.js
+http://localhost:3000/static/js/main.chunk.js
+
+8. GET >> Status code = 101 Web Socket Protocol Handshake
+wss://echo.websocket.org/
+
+9. GET >> localhost
+http://localhost:3000/static/media/videohome_logo.376a325f.png
+http://localhost:3000/static/media/people.e5b4a0ea.png
+http://localhost:3000/static/media/videohome_mic.3d09e2a4.png
+http://localhost:3000/static/media/videohome_volume.3b494e4e.png
+http://localhost:3000/static/media/videohome_video.e132d49e.png
+http://localhost:3000/static/media/videohome_setting.bcb70a61.png
+data:image/png
+http://localhost:3000/static/media/videohome_home.78e6d14b.png
+http://localhost:3000/static/media/videohome_monitor.3ce6b147.png
+http://localhost:3000/static/media/videohome_doc.d1bba476.png
+
+10. GET >> CONST
+https://webrtc.github.io/adapter/adapter-latest.js
+
+11. GET
+http://localhost:3000/sockjs-node/info?t=1560842035074
+
+12. GET
+http://localhost:3000/manifest.json
+http://localhost:3000/favicon.ico
+
+12. GET >> Status code = 101 Switching Protocols
+ws://localhost:3000/sockjs-node/650/rtfqtkji/websocket
+
+13. GET
+https://rtcmulticonnection.herokuapp.com/socket.io/?
+    userid=66ssh3edzaj&
+    sessionid=abcded&
+    msgEvent=video-conference-demo&
+    socketCustomEvent=RTCMultiConnection-Custom-Message&
+    autoCloseEntireSession=true&
+    maxParticipantsAllowed=1000&
+    extra=%7B%7D&EIO=3&
+    transport=polling&
+    t=MjfRtBm
+
+
+** During Connection -> 8, 12, 13
