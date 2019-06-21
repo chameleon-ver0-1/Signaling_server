@@ -72,3 +72,11 @@ https://rtcmulticonnection.herokuapp.com/socket.io/?
 
 
 ** During Connection -> 8, 12, 13
+
+
+// modify
+socket.io url is:  https://rtcmulticonnection.herokuapp.com:443/
+RTCMultiConnection.min.js:15 socket.io connection is opened.
+VideoItem.jsx:80 onstream 정상 작동 중
+RTCMultiConnection.min.js:17 Sending open-room signal to socket.io
+RTCMultiConnection.min.js:17 isRoomOpened:  true  roomid:  abcded
